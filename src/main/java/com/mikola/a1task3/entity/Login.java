@@ -13,7 +13,7 @@ import java.util.UUID;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Logins {
+public class Login {
 
     @Id
     private UUID id;
@@ -31,7 +31,7 @@ public class Logins {
     private String jobTitle;
 
     @Column
-    private String Department;
+    private String department;
 
 
 }
